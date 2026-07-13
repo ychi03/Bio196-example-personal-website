@@ -2,7 +2,7 @@
 title: "Home"
 layout: homelay
 sitemap: false
-permalink: /research/
+permalink: /
 ---
 
 <h2 class="home-hero">{{ site.name }}</h2>
