@@ -25,7 +25,7 @@ My work focuses on using quantitative and mixed-methods research to study nutrit
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Nutrition and public health data analysis" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}/images/CS.png" alt="Nutrition and public health data analysis" loading="lazy">
 <div class="banner-caption">Using data analysis and visualization to support research in nutrition, food systems, and community health.</div>
 </div>
 
