@@ -2,38 +2,35 @@
 title: "Home"
 layout: homelay
 sitemap: false
-permalink: /
+permalink: /research/
 ---
 
 <h2 class="home-hero">{{ site.name }}</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nutrition Research</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Food Is Medicine</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data Analysis</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Program Evaluation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data Visualization</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Food Systems</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+My work focuses on using quantitative and mixed-methods research to study nutrition, public health, and food systems. I am interested in transforming complex health and program data into clear visualizations and practical insights that support community organizations, researchers, and decision-makers.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-chart-line callout-icon"></i> Featured Experience</div>
+<p>As a Quantitative Analyst Intern at Community Servings, I developed data visualizations and reproducible data-cleaning workflows for policy, health, and Food Is Medicine datasets.</p>
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Nutrition and public health data analysis" loading="lazy">
+<div class="banner-caption">Using data analysis and visualization to support research in nutrition, food systems, and community health.</div>
 </div>
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I am a master student studying at the Friedman School of Nutrition Science and Policy at Tufts University. My experience includes working with nutrition, health, agriculture, and program-evaluation data using R, SAS, Excel, Tableau, ArcGIS, and NVivo.
+
+Through my work with Community Servings, New Entry Sustainable Farming Project, and the Tufts Hirsh Health Sciences Library Data Lab, I have contributed to projects involving Food Is Medicine, farmer training, land access, dietary assessment, GIS mapping, and public-facing data communication.
