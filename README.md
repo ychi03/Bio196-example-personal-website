@@ -51,6 +51,10 @@ Start with these files:
 
 You do not need to understand every file in the template before starting. Begin with `_config.yml` and one page in `_pages/`.
 
+## Optional template examples
+
+This template includes extra example pages in `_optional_pages/`, such as news, talks, teaching, software, and team pages. These pages are not required for BIO196. They are kept only as examples if you want to explore the original academic website template later.
+
 ## Optional: preview the website on your computer
 
 You do not need to install Ruby, Jekyll, or Node.js for the simplest version of this assignment. GitHub Actions can build the website online after you push to GitHub.
