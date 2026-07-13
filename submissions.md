@@ -1,4 +1,4 @@
-# BIO196 Personal WWebsite Submissions
+# BIO196 Personal Website Submissions
 
 After your website is published, add one row to this table by opening a pull request.
 
