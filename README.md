@@ -1,237 +1,152 @@
-# A website template for academics
+# BIO196 Personal Website Template
 
-<p align="center">
-  <img src="images/screenshots/home-hero.png" alt="Home page — light and dark mode" width="900">
-</p>
+This repository is the starter template for the BIO196 personal website assignment.
 
-<p align="center">
-  <strong>A beautiful, production-ready Jekyll website for academics and research groups.</strong><br>
-  Fork it. Fill in your info. Publish.
-</p>
+You will use this template to practice a real GitHub workflow:
 
-<h3 align="center">
-  <a href="https://sbryngelson.github.io/academic-website-template/">See the live demo &rarr;</a>
-</h3>
+- fork a course template
+- customize your own copy
+- publish a website with GitHub Pages
+- submit your repository link and website link
+- later, contribute your links back to the course submissions repository
 
-<p align="center">
-  <a href="#quick-start">Quick Start</a> &middot;
-  <a href="#features">Features</a> &middot;
-  <a href="#customization">Customization</a> &middot;
-  <a href="#publications">Publications</a> &middot;
-  <a href="#hosting">Hosting</a>
-</p>
+## What you will create
 
-### Used by 200+ academics worldwide
+By the end of the assignment, you should have:
 
-<a href="https://ilafly.github.io/" target="_blank">★</a>
-<a href="https://i-vesseg.github.io/" target="_blank">★</a>
-<a href="https://xfangsn.github.io/" target="_blank">★</a>
-<a href="https://joshuagob.github.io" target="_blank">★</a>
-<a href="https://bczheng.com/" target="_blank">★</a>
-<a href="https://bazilinskyy.github.io/" target="_blank">★</a>
-<a href="https://www.coreytcallaghan.com/" target="_blank">★</a>
-<a href="https://minseoksong.github.io/" target="_blank">★</a>
-<a href="https://acme-group-cmu.github.io/" target="_blank">★</a>
-<a href="https://barrylee36.github.io/" target="_blank">★</a>
-<a href="https://adisun94.github.io/" target="_blank">★</a>
-<a href="https://comp-physics.group" target="_blank">★</a>
-<a href="https://spike.doc.ic.ac.uk/" target="_blank">★</a>
-<a href="http://www.msc.univ-paris-diderot.fr/~berhanu/" target="_blank">★</a>
-<a href="https://mashadab.github.io/" target="_blank">★</a>
-<a href="https://home.iitk.ac.in/~lalit/" target="_blank">★</a>
-<a href="https://ethan-pickering.github.io/" target="_blank">★</a>
-<a href="https://pedro-dm-gomes.github.io/" target="_blank">★</a>
-<a href="https://3tbk.github.io/3tbk/" target="_blank">★</a>
-<a href="https://felipesua.github.io/" target="_blank">★</a>
-<a href="https://shivvrat.github.io/" target="_blank">★</a>
-<a href="https://ritamraha.github.io/" target="_blank">★</a>
-<a href="https://matsesseldeurs.github.io/" target="_blank">★</a>
-<a href="https://michelleblom.github.io/" target="_blank">★</a>
-<a href="https://jrd971000.github.io/" target="_blank">★</a>
-<a href="https://melashri.net/" target="_blank">★</a>
-<a href="https://sahatulika15.github.io" target="_blank">★</a>
-<a href="https://mzhanglab.github.io" target="_blank">★</a>
-<a href="https://soar-lab.github.io" target="_blank">★</a>
-<a href="https://azharghafoor.github.io/" target="_blank">★</a>
-<a href="https://hyunwoo.info/" target="_blank">★</a>
-<a href="https://computervision0.github.io/" target="_blank">★</a>
-<a href="https://adrashid.github.io/personal-webpage/index.html" target="_blank">★</a>
-<a href="https://aleemkhan62.github.io/" target="_blank">★</a>
-<a href="https://vaibhavb007.github.io/" target="_blank">★</a>
-<a href="https://gabry993.github.io/" target="_blank">★</a>
-<a href="https://shantnuu.github.io/" target="_blank">★</a>
-<a href="https://wenbinluomath.github.io/" target="_blank">★</a>
-<a href="https://aibio-lab.github.io/" target="_blank">★</a>
-<a href="https://dartsushi.github.io/" target="_blank">★</a>
-<a href="https://efstathia-soufleri.github.io/" target="_blank">★</a>
-<a href="https://zchoffin.github.io/" target="_blank">★</a>
-<a href="https://wangyb97.github.io/" target="_blank">★</a>
-<a href="https://sgleem.github.io/" target="_blank">★</a>
-<a href="https://has97.github.io/" target="_blank">★</a>
-<a href="https://albertgassol1.github.io/" target="_blank">★</a>
-<a href="https://seanpark05.github.io/" target="_blank">★</a>
-<a href="https://miki998.github.io/" target="_blank">★</a>
-<a href="https://wilfonba.github.io/" target="_blank">★</a>
-<a href="https://saharnazb.github.io/" target="_blank">★</a>
-<a href="https://mvmacfarlane.github.io/" target="_blank">★</a>
-<a href="https://saharnaz.org/" target="_blank">★</a>
-<a href="https://www.isnicholas.com/" target="_blank">★</a>
-<a href="https://jojox666.github.io/" target="_blank">★</a>
-<a href="https://zhiyu7.github.io/" target="_blank">★</a>
-<a href="https://awen-li.github.io/" target="_blank">★</a>
-<a href="https://yukiiwong.github.io/" target="_blank">★</a>
-<a href="https://joeyleehk.github.io/" target="_blank">★</a>
-<a href="https://fabayocbocjr.github.io/" target="_blank">★</a>
-<a href="https://www.quantumcookie.xyz/" target="_blank">★</a>
-<a href="https://adityanandy.github.io/" target="_blank">★</a>
-<a href="https://jlastro.github.io/" target="_blank">★</a>
-<a href="https://yunzhe-li.top/" target="_blank">★</a>
-<a href="https://xia-hu.github.io/" target="_blank">★</a>
-<a href="https://p-bajpai.github.io/" target="_blank">★</a>
-<a href="https://aashen12.github.io/" target="_blank">★</a>
-<a href="https://Abdurrahheem.github.io/" target="_blank">★</a>
-<a href="https://abhimanyu911.github.io/" target="_blank">★</a>
-<a href="https://abhishek-sehgal.github.io/" target="_blank">★</a>
-<a href="https://adityaIyerramesh98.github.io/" target="_blank">★</a>
-<a href="https://AdityaSinghDevs.github.io/" target="_blank">★</a>
-<a href="https://aipsita.github.io/" target="_blank">★</a>
-<a href="https://albertopadovan.github.io/" target="_blank">★</a>
-<a href="https://alirezanorouziazad.github.io/" target="_blank">★</a>
-<a href="https://amy-tabb.github.io/" target="_blank">★</a>
-<a href="https://anedelin.github.io/" target="_blank">★</a>
-<a href="https://ansharora7.github.io/" target="_blank">★</a>
-<a href="https://avadapal.github.io/" target="_blank">★</a>
-<a href="https://avibagchi.github.io/" target="_blank">★</a>
-<a href="https://bc1032.github.io/" target="_blank">★</a>
-<a href="https://BDalheimer.github.io/" target="_blank">★</a>
-<a href="https://Bennibraun.github.io/" target="_blank">★</a>
-<a href="https://binbin-xie.github.io/" target="_blank">★</a>
-<a href="https://BiomedLabUGgt.github.io/" target="_blank">★</a>
-<a href="https://c752334430.github.io/" target="_blank">★</a>
-<a href="https://Chemical118.github.io/" target="_blank">★</a>
-<a href="https://chihaoy.github.io/" target="_blank">★</a>
-<a href="https://cjaynjoku.github.io/" target="_blank">★</a>
-<a href="https://DennisWayo.github.io/" target="_blank">★</a>
-<a href="https://dginsberg.github.io/" target="_blank">★</a>
-<a href="https://dgiovanis.github.io/" target="_blank">★</a>
-<a href="https://donghuison.github.io/" target="_blank">★</a>
-<a href="https://donghuixin.github.io/" target="_blank">★</a>
-<a href="https://drgHannah.github.io/" target="_blank">★</a>
-<a href="https://DrWeiChen.github.io/" target="_blank">★</a>
-<a href="https://econpotter.github.io/" target="_blank">★</a>
-<a href="https://elitalobo.github.io/" target="_blank">★</a>
-<a href="https://emilyvansyoc.github.io/" target="_blank">★</a>
-<a href="https://Erd-ling.github.io/" target="_blank">★</a>
-<a href="https://estimation-control-learning-laboratory.github.io/" target="_blank">★</a>
-<a href="https://EthanJ666.github.io/" target="_blank">★</a>
-<a href="https://f-farhan.github.io/" target="_blank">★</a>
-<a href="https://fekaputra.github.io/" target="_blank">★</a>
-<a href="https://FishyguyNeel.github.io/" target="_blank">★</a>
-<a href="https://flampouris.github.io/" target="_blank">★</a>
-<a href="https://flavio2018.github.io/" target="_blank">★</a>
-<a href="https://Frellaa.github.io/" target="_blank">★</a>
-<a href="https://gabrielpachecoribeiro.github.io/" target="_blank">★</a>
-<a href="https://gcg-helsinki.github.io/" target="_blank">★</a>
-<a href="https://giorgioarcara.github.io/" target="_blank">★</a>
-<a href="https://gmtang1212.github.io/" target="_blank">★</a>
-<a href="https://gmurtaza404.github.io/" target="_blank">★</a>
-<a href="https://Grupo-MATE.github.io/" target="_blank">★</a>
-<a href="https://guancai.github.io/" target="_blank">★</a>
-<a href="https://guharoysayak.github.io/" target="_blank">★</a>
-<a href="https://haochey.github.io/" target="_blank">★</a>
-<a href="https://HC-teemo.github.io/" target="_blank">★</a>
-<a href="https://heymarco.github.io/" target="_blank">★</a>
-<a href="https://hkkaushik.github.io/" target="_blank">★</a>
-<a href="https://HORIZON-COVER.github.io/" target="_blank">★</a>
-<a href="https://hrositi.github.io/" target="_blank">★</a>
-<a href="https://hsparkastro.github.io/" target="_blank">★</a>
-<a href="https://hyojoonkim.github.io/" target="_blank">★</a>
-<a href="https://JamesL404.github.io/" target="_blank">★</a>
-<a href="https://jasonarothman.github.io/" target="_blank">★</a>
-<a href="https://Jeffery-Zhou.github.io/" target="_blank">★</a>
-<a href="https://jianxyou.github.io/" target="_blank">★</a>
-<a href="https://Jiawei-sn.github.io/" target="_blank">★</a>
-<a href="https://jortizcs.github.io/" target="_blank">★</a>
-<a href="https://jtonos.github.io/" target="_blank">★</a>
-<a href="https://JudithBouman2412.github.io/" target="_blank">★</a>
-<a href="https://jujubonda.github.io/" target="_blank">★</a>
-<a href="https://jumeike.github.io/" target="_blank">★</a>
-<a href="https://Kadle11.github.io/" target="_blank">★</a>
-<a href="https://KaihangShi.github.io/" target="_blank">★</a>
-<a href="https://KALU-KELECHI-GABRIEL.github.io/" target="_blank">★</a>
-<a href="https://Khris-VI.github.io/" target="_blank">★</a>
-<a href="https://KieuTruong.github.io/" target="_blank">★</a>
-<a href="https://Koromonnnnnnnn.github.io/" target="_blank">★</a>
-<a href="https://ktvank.github.io/" target="_blank">★</a>
-<a href="https://Kunlun-Zhu.github.io/" target="_blank">★</a>
-<a href="https://kwakkyoleen.github.io/" target="_blank">★</a>
-<a href="https://leowangx2013.github.io/" target="_blank">★</a>
-<a href="https://lokingdav.github.io/" target="_blank">★</a>
-<a href="https://ltinphan.github.io/" target="_blank">★</a>
-<a href="https://lzy37ld.github.io/" target="_blank">★</a>
-<a href="https://manshri.github.io/" target="_blank">★</a>
-<a href="https://martinezach.github.io/" target="_blank">★</a>
-<a href="https://minhphd.github.io/" target="_blank">★</a>
-<a href="https://mohamed-s-ibrahim.github.io/" target="_blank">★</a>
-<a href="https://mohammedaflah.github.io/" target="_blank">★</a>
-<a href="https://monroyaume5.github.io/" target="_blank">★</a>
-<a href="https://mrajiullah.github.io/" target="_blank">★</a>
-<a href="https://msstate-athena.github.io/" target="_blank">★</a>
-<a href="https://mvanwyngarden.github.io/" target="_blank">★</a>
-<a href="https://Naeele.github.io/" target="_blank">★</a>
-<a href="https://Nebularaid2000.github.io/" target="_blank">★</a>
-<a href="https://neuronpain.github.io/" target="_blank">★</a>
-<a href="https://NickJi98.github.io/" target="_blank">★</a>
-<a href="https://noahzegna.github.io/" target="_blank">★</a>
-<a href="https://overlorde.github.io/" target="_blank">★</a>
-<a href="https://p4rkerw.github.io/" target="_blank">★</a>
-<a href="https://Penghuihuang2000.github.io/" target="_blank">★</a>
-<a href="https://Pragati-Meshram.github.io/" target="_blank">★</a>
-<a href="https://qianhuimen.github.io/" target="_blank">★</a>
-<a href="https://qzkiyoshi.github.io/" target="_blank">★</a>
-<a href="https://ricethchang.github.io/" target="_blank">★</a>
-<a href="https://robenlunardi.github.io/" target="_blank">★</a>
-<a href="https://royess.github.io/" target="_blank">★</a>
-<a href="https://rupendra248.github.io/" target="_blank">★</a>
-<a href="https://SantiagoxSosa.github.io/" target="_blank">★</a>
-<a href="https://saorisakaue.github.io/" target="_blank">★</a>
-<a href="https://SelzerConst.github.io/" target="_blank">★</a>
-<a href="https://sherdencooper.github.io/" target="_blank">★</a>
-<a href="https://shsjxzh.github.io/" target="_blank">★</a>
-<a href="https://Smadx.github.io/" target="_blank">★</a>
-<a href="https://sophie-carneiro.github.io/" target="_blank">★</a>
-<a href="https://ssun32.github.io/" target="_blank">★</a>
-<a href="https://st-eislab.github.io/" target="_blank">★</a>
-<a href="https://suprovo97.github.io/" target="_blank">★</a>
-<a href="https://takouajendoubi.github.io/" target="_blank">★</a>
-<a href="https://ThomasMartinez0.github.io/" target="_blank">★</a>
-<a href="https://thu-gyt.github.io/" target="_blank">★</a>
-<a href="https://tokeron.github.io/" target="_blank">★</a>
-<a href="https://ttadano.github.io/" target="_blank">★</a>
-<a href="https://valentinsix.github.io/" target="_blank">★</a>
-<a href="https://victorolaiya.github.io/" target="_blank">★</a>
-<a href="https://vmetsis.github.io/" target="_blank">★</a>
-<a href="https://wanganzhi.github.io/" target="_blank">★</a>
-<a href="https://wjin4.github.io/" target="_blank">★</a>
-<a href="https://wufan-here.github.io/" target="_blank">★</a>
-<a href="https://wumirose.github.io/" target="_blank">★</a>
-<a href="https://xianzhangchen.github.io/" target="_blank">★</a>
-<a href="https://xietian1.github.io/" target="_blank">★</a>
-<a href="https://Xueyi-Wang.github.io/" target="_blank">★</a>
-<a href="https://xyhanO.github.io/" target="_blank">★</a>
-<a href="https://yasserfarouk.github.io/" target="_blank">★</a>
-<a href="https://yewenC.github.io/" target="_blank">★</a>
-<a href="https://yilevine.github.io/" target="_blank">★</a>
-<a href="https://ykl7.github.io/" target="_blank">★</a>
-<a href="https://yminzhang.github.io/" target="_blank">★</a>
-<a href="https://yuminglab.github.io/" target="_blank">★</a>
-<a href="https://zeyuD.github.io/" target="_blank">★</a>
-<a href="https://zhoulongyu.github.io/" target="_blank">★</a>
-<a href="https://nderus.github.io" target="_blank">★</a>
+- your own GitHub repository named `bio196-personal-website`
+- a published website at `https://YOUR_USERNAME.github.io/bio196-personal-website/`
+- a customized homepage with your name and short introduction
+- at least one edited content page
+- no private, sensitive, or large raw data uploaded
 
-__Using this template? Share your site and I'll add it here!__
+## Start here
 
----
+1. Click **Fork** on this repository.
+2. Choose your own GitHub account as the owner.
+3. Rename your fork:
+
+   ```text
+   bio196-personal-website
+   ```
+
+4. Make sure you are editing the `source` branch.
+5. Customize the website files.
+6. Publish with GitHub Pages using GitHub Actions.
+7. Submit both links:
+
+   - your GitHub repository link
+   - your published website link
+
+## Files you will edit first
+
+Start with these files:
+
+| File or folder | What it controls |
+| --- | --- |
+| `_config.yml` | Your name, site title, links, navigation, and site settings |
+| `_pages/` | Markdown pages such as home, about, research, teaching, or software |
+| `images/` | Profile photo or other website images |
+| `assets/ref.bib` | Optional bibliography file if you want to list publications |
+
+You do not need to understand every file in the template before starting. Begin with `_config.yml` and one page in `_pages/`.
+
+## Optional: preview the website on your computer
+
+You do not need to install Ruby, Jekyll, or Node.js for the simplest version of this assignment. GitHub Actions can build the website online after you push to GitHub.
+
+Local preview is useful if:
+
+- you want to check the website before pushing
+- GitHub Pages fails and you need to troubleshoot
+- you are the instructor preparing the course template
+- you want to make larger design changes
+
+To preview locally, you need Ruby and Jekyll. Follow the Jekyll installation guide for your operating system:
+
+```text
+https://jekyllrb.com/docs/installation/
+```
+
+Then run:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Open the local address printed in the terminal. It is often:
+
+```text
+http://localhost:4000
+```
+
+If this template uses a project-site `baseurl`, the local preview may instead be under:
+
+```text
+http://localhost:4000/bio196-personal-website/
+```
+
+Node.js packages are only needed if you plan to edit and rebuild the JavaScript:
+
+```bash
+npm install
+```
+
+## Publish with GitHub Pages
+
+This template uses GitHub Actions to build the website.
+
+After you fork and customize the repository:
+
+1. Open your fork on GitHub.
+2. Go to **Settings**.
+3. Go to **Pages**.
+4. Under **Source**, choose **GitHub Actions**.
+5. Wait a few minutes for the site to build.
+
+Your website link should look like:
+
+```text
+https://YOUR_USERNAME.github.io/bio196-personal-website/
+```
+
+## What to submit
+
+Submit:
+
+```text
+Repository link:
+https://github.com/YOUR_USERNAME/bio196-personal-website
+
+Website link:
+https://YOUR_USERNAME.github.io/bio196-personal-website/
+```
+
+## Privacy and data rules
+
+Do not upload:
+
+- private data
+- controlled-access data
+- passwords or tokens
+- private SSH keys
+- unpublished sensitive work
+- large raw sequencing files such as FASTQ, BAM, or CRAM files
+
+Use small public example files only if the assignment asks for data.
+
+## Credit
+
+This course template is adapted from an academic website template by the original template authors. The original template included broader documentation for academic and research group websites; this README has been simplified for BIO196 students.
+
+## License
+
+MIT
+
+
+# Original Template
+You can check later if you would like to develop a true personal website and learn more about the original project. 
 
 ## Features
 
