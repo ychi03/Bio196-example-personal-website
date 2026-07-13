@@ -5,6 +5,8 @@ sitemap: false
 permalink: /blogs/
 ---
 
+{% comment %}
+
 ## Blog
 
 {% if site.posts.size > 0 %}
@@ -12,10 +14,14 @@ permalink: /blogs/
 {% for post in site.posts %}
 <div class="news-item" style="padding: 1rem 0; border-bottom: 1px solid var(--border-color);">
 <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="font-weight: 600;">{{ post.title }}</a>
+<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="font-weight: 600;">
+  {{ post.title }}
+</a>
 </div>
 {% endfor %}
 </div>
 {% else %}
 <p class="text-muted">No blog posts yet.</p>
 {% endif %}
+
+{% endcomment %}
