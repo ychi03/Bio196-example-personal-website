@@ -1,8 +1,8 @@
-name: Build and Deploy
+name: Deploy BIO196 Personal Website
 
 on:
   push:
-    branches: [source]
+    branches: ["source"]
   workflow_dispatch:
 
 permissions:
@@ -18,28 +18,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: "3.2"
           bundler-cache: true
 
-      - name: Build site
-        run: |
-          # _config_demo.yml is only for the upstream demo site — ignore it in forks/copies
-          if [ -f _config_demo.yml ] && [ "$GITHUB_REPOSITORY" = "sbryngelson/academic-website-template" ]; then
-            bundle exec jekyll build --config _config.yml,_config_demo.yml
-          else
-            bundle exec jekyll build
-          fi
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build --destination ./_site
         env:
           JEKYLL_ENV: production
 
-      - name: Upload artifact
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./_site
 
   deploy:
     environment:
